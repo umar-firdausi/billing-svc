@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cloud.billing.Invoice;
-import com.cloud.billing.response.InvoiceResponse;
+import com.billing.pojos.Invoice;
+import com.billing.pojos.response.InvoiceResponse;
 
 @RestController
 public class InvoiceController {

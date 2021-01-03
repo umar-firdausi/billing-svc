@@ -12,8 +12,8 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.cloud.billing.Invoice;
-import com.cloud.billing.response.InvoiceResponse;
+import com.billing.pojos.Invoice;
+import com.billing.pojos.response.InvoiceResponse;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 
 @Service
