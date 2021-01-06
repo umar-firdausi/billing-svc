@@ -20,4 +20,4 @@ FROM adoptopenjdk/openjdk11:alpine-slim
 COPY --from=builder /app/target/billing-svc-*.jar /billing-svc.jar
 
 # Run the web service on container startup.
-CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/helloworld.jar"]
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/billing-svc.jar"]
