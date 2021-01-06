@@ -43,6 +43,6 @@ spec:
     app: billing-svc
   ports:
   - protocol: TCP
-    port: 80
-    targetPort: 8080
+    port: 8181
+    targetPort: 8181
   type: LoadBalancer
